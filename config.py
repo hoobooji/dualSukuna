@@ -38,7 +38,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002108401039"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me :D @Anime_Alliance ⚡️.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me Join Now: @Nottylinkshub 🍒")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "👋 Hello {first}!\nPlease Join our channel First [ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡] then\n Download by tapping on ⚡️Try Again  \nThank You ❤️")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", " HEY {first}🌺\n \nPlease Join our channel First [ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ 🥹]\n Then\n \n Watching by tapping on ♻️ RELOAD  \nThank You ❤️")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
